@@ -1,18 +1,18 @@
 # ToDo List
 
-A simple T0-do list app that allows users to keep track of their tasks.
+A simple To-do list app that allows users to keep track of their tasks.
 
 ## Features:
 * A form to enter and add a new task to the list.
 * A  checkbox to check a task when done.
-* A button to delete a task
+* A button to delete a task.
 
 ## Live Demo: 
 https://todo-list-inky-theta.vercel.app/
 
 ## Technologies Used:
 * React
-* Css for styling
+* CSS for styling
 
 ## Screenshots:
 ### Mobile View: 
