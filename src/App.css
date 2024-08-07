@@ -1,0 +1,135 @@
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #333;
+}
+
+.todo-section {
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distributes space between items */
+  margin-bottom: 8px
+}
+
+.todo-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-card input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-card label {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #ff4c4c;
+  cursor: pointer;
+  border: 2px solid #ff4c4c;
+  /* vertical-align: bottom; */
+  /* margin-left: 400px; */
+}
+
+.delete-btn:hover {
+  color: #ff2a2a;
+}
+
+.add-todo-section {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]{
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+ form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: white;
+  color: #45a049;
+  border: 2px solid #45a049;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 15px;
+    width: 80%;
+  }
+  
+  .add-todo-form input[type="text"] {
+    margin-right: 5px;
+  }
+
+  li{
+    margin-left: -40px;
+  }
+
+}
